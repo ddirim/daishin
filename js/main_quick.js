@@ -52,13 +52,13 @@ $(function(){
         $('.process div').removeClass('active');
         $('.process span').removeClass('active');
         $('.info div').removeClass('active');
-        $('.info span').removeClass('active');
+        $('.info span').removeClass('info_active');
       }
 
       // 공시정보
       if ( s >= 4900 && s < 5900 ) {
         $('.info div').addClass('active');
-        $('.info span').addClass('active');
+        $('.info span').addClass('info_active');
 
         $('.team div').removeClass('active');
         $('.team span').removeClass('active');

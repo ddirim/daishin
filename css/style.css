@@ -21,7 +21,7 @@ section[id ^= "main_"] {
   width: 100%;
   height: 1080px;
   background: #aaa;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 section:nth-child(2n) {
@@ -31,13 +31,18 @@ section:nth-child(2n) {
 
 /* 대표상품 */
 #main_products {
-  background-image: url('images/extra_clean_paper_@2X.png');
+  background-image: url(../images/extra_clean_paper_@2X.png);
 }
 
 
 /* 운용프로세스 */
 #main_process {
-  background-image: url('images/dark_geometric_@2X.png');
+  background-image: url(../images/dark_geometric_@2X.png);
+}
+
+
+#main_info {
+  background-image: url(../images/pixel_weave_@2X.png);
 }
 
 section[id ^= "main_"] > h1 {
@@ -91,7 +96,8 @@ section[id ^= "main_"] > h1 {
   color: #fff;
 }
 
-.products_active {
+.products_active,
+.info_active {
   color: #333;
 }
 
