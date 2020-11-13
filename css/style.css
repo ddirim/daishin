@@ -52,6 +52,7 @@ section[id ^= "main_"] > h1 {
   top: 300px;
   right: 20px;
   text-align: right;
+  display: none;
 }
 
 #main_quick a {
