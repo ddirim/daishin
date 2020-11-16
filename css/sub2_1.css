@@ -22,11 +22,11 @@ h2 {
 }
 h3 {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
 }
 p { 
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 body {
   color: #333333;
@@ -353,12 +353,11 @@ input.img_button {
   text-align: center;
 }
 
-#sub_title_text > h3 {
-font-size: 40px;
+#sub_title_text > h2 {
 margin-bottom: 20px;
 }
 
-#sub_title_text > h3 > span {
+#sub_title_text > h2 > span {
   color:#357CBE;
 }
 
