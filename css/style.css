@@ -167,17 +167,15 @@ padding-top: 15px;
 /* color: #fff; */
 color: rgba(255, 255, 255, 0.8);
 font-weight: 300;
-display: inline-block
+display: inline-block;
 }
 
-/* #gnb .depth1 > li > a:hover,
-#gnb .depth2 > li > a:hover{color: #357CBE} */
 
-#gnb .depth1 li a,
-#gnb .depth1 li a:after,
-#gnb .depth1 li a:before{transition: all .5s;}
 
-/* #gnb ul li a:hover {color: #357CBE;} */
+#gnb .depth1 > li > a,
+#gnb .depth1 > li > a:after,
+#gnb .depth1 > li > a:before{transition: all .5s;}
+
 
 /* stroke */
 #gnb ul li a{position: relative;}
@@ -517,6 +515,10 @@ font-weight: bold;
 }
 #main_intro .intro_box > .innovation > p {
   padding: 0 40px;
+}
+
+#main_intro .intro_box h3 {
+  font-weight: 500;
 }
 
 /* 운용프로세스 */
