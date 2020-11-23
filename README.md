@@ -3,6 +3,6 @@
 작업 기간: 20-11-12 ~ 20-11-19 (8일)
 
 # 홈페이지 링크
-[리뉴얼 프로젝트][https://ddirim.github.io/daishin/]
+[리뉴얼 프로젝트]: https://ddirim.github.io/daishin/
 [기존 대신자산운용 홈페이지][http://www.ditm.co.kr/webapp/index.jsp]
 
